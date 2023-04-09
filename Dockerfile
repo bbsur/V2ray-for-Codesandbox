@@ -1,7 +1,4 @@
 FROM ubuntu
-EXPOSE 80
-WORKDIR /app
-USER root
 
 MAINTAINER ifeng <https://t.me/HiaiFeng>
 
