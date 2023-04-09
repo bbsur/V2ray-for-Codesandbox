@@ -1,4 +1,8 @@
 FROM ubuntu
+EXPOSE 80
+WORKDIR /app
+USER root
+
 MAINTAINER ifeng <https://t.me/HiaiFeng>
 
 RUN apt update -y && apt install -y wget unzip nginx supervisor qrencode net-tools
